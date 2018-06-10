@@ -12,7 +12,7 @@ export async function sourceNodes({ boundActionCreators }) {
       .filter(player => player.teams.length > 0)
       // Filter players that did not play in the NBA since last season
       .filter(player => player.teams[player.teams.length - 1].seasonEnd === '2017')
-      .map((player) => {
+      .map(player => {
         const node = Node(capitalize('player'), {
           ...player,
           image: `https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/${
@@ -21,6 +21,8 @@ export async function sourceNodes({ boundActionCreators }) {
         });
         createNode(node);
       }));
+  // eslint-disable-next-line
+  return;
 }
 
 export default sourceNodes;
