@@ -1,7 +1,7 @@
 import createNodeHelpers from 'gatsby-node-helpers';
 
 const { createNodeFactory } = createNodeHelpers({
-  typePrefix: 'NBA'
+  typePrefix: 'NBA',
 });
 
 /**
@@ -17,3 +17,5 @@ export const Node = (type, node) =>
     node.id = node.personId;
     return node;
   })(node);
+
+export default Node;

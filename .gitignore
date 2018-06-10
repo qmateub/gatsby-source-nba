@@ -1,3 +1,7 @@
 # Project dependencies
 node_modules
 yarn-error.log
+
+# Build directory
+gatsby-node.js
+nodes.js
