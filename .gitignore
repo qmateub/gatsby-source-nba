@@ -1,0 +1,8 @@
+# Project dependencies
+node_modules
+yarn-error.log
+
+# Build directory
+fetch-data.js
+gatsby-node.js
+nodes.js
