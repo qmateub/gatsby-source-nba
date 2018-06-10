@@ -10,5 +10,6 @@ module.exports = {
     'no-multiple-empty-lines': [2, { max: 2, maxEOF: 2 }],
     'no-console': 0,
     'arrow-parens': 0,
+    'import/prefer-default-export': 0,
   },
 };

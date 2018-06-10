@@ -17,5 +17,3 @@ export const Node = (type, node) =>
     node.id = node.personId;
     return node;
   })(node);
-
-export default Node;

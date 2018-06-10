@@ -24,5 +24,3 @@ export async function sourceNodes({ boundActionCreators }) {
   // eslint-disable-next-line
   return;
 }
-
-export default sourceNodes;
