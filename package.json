@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-nba",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A plugin for injecting NBA data in your Gatsby site",
   "main": "index.js",
   "scripts": {
