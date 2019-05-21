@@ -14,7 +14,8 @@
     "nba",
     "gatsby",
     "react",
-    "grapqhl"
+    "grapqhl",
+    "gatsby-plugin"
   ],
   "author": "Quique Mateu",
   "license": "MIT",
