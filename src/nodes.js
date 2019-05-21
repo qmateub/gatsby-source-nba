@@ -12,8 +12,7 @@ const { createNodeFactory } = createNodeHelpers({
  * @param {object} node - Node
  * @constructor
  */
-export const Node = (type, node) =>
-  createNodeFactory(type, node => {
-    node.id = node.personId;
-    return node;
-  })(node);
+export const Node = (type, n) => createNodeFactory(type, node => ({
+  ...node,
+  id: node.personId,
+}))(n);
