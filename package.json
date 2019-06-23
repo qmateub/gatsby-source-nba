@@ -25,7 +25,7 @@
     "url": "https://github.com/qmateub/gatsby-source-nba"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.19.0",
     "gatsby-node-helpers": "^0.3.0",
     "lodash.capitalize": "^4.2.1"
   },
