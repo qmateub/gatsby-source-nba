@@ -8,7 +8,6 @@
     "build": "babel src --out-dir .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "babel -w src --out-dir .",
-    "prepare": "npm run build",
     "format": "prettier --write 'src/**/*.js'"
   },
   "private": false,
@@ -16,8 +15,8 @@
     "access": "public"
   },
   "files": [
-    "gatsby-node.js",
-    "nodes.js",
+    "dist/gatsby-node.js",
+    "dist/nodes.js",
     "package.json",
     "README.md"
   ],
