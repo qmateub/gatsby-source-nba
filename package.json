@@ -10,7 +10,17 @@
     "watch": "babel -w src --out-dir .",
     "prepare": "npm run build",
     "format": "prettier --write 'src/**/*.js'"
+	},
+	"private": false,
+  "publishConfig": {
+    "access": "public"
   },
+  "files": [
+		"gatsby-node.js",
+		"nodes.js",
+    "package.json",
+    "README.md"
+  ],
   "keywords": [
     "nba",
     "gatsby",
