@@ -1,5 +1,11 @@
 # gatsby-source-nba
 
+## 2.0.8
+
+### Patch Changes
+
+- 337aa40: chore(repo): build in root folder
+
 ## 2.0.7
 
 ### Patch Changes
