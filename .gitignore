@@ -1,4 +1,6 @@
 # Project dependencies
 node_modules
 dist
+gatsby-node.js
+nodes.js
 yarn-error.log
