@@ -1,5 +1,11 @@
 # gatsby-source-nba
 
+## 2.0.9
+
+### Patch Changes
+
+- 3a6e911: chore(deps): bump axios from 0.19.2 to 0.21.1
+
 ## 2.0.8
 
 ### Patch Changes
