@@ -1,5 +1,11 @@
 # gatsby-source-nba
 
+## 2.0.10
+
+### Patch Changes
+
+- ff8da45: chore(deps): bump node-fetch from 2.6.0 to 2.6.1
+
 ## 2.0.9
 
 ### Patch Changes
